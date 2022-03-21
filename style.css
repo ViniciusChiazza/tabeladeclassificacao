@@ -1,0 +1,124 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 1080px;
+  background-image: url(https://bestanimations.com/media/triangles/939989628green-triangle-reflection-gif.gif);
+  background-size: 450px;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: "Copperplate", fantasy;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 2;
+  text-align: center;
+  color: #556b2f;
+}
+img {
+  width: 70px;
+  height: 70px;
+  border: 2px solid;
+  border-color: #556b2f;
+}
+th,
+tr,
+td {
+  background: #8fbc8f;
+  border: solid 2px #556b2f;
+  color: #000000;
+  font-weight: bold;
+}
+
+input {
+  text-align: left;
+  color: black;
+  font-size: 18px;
+  width: 320px;
+  height: 13px;
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-color: #556b2f;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+input:hover {
+  border: 1px solid #556b2f;
+  box-shadow: 1px 1px 5px 1px #556b2f;
+}
+
+.button {
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #556b2f;
+}
+.button:hover {
+  box-shadow: 1px 1px 5px 1px #556b2f;
+}
+.button:active {
+  transition: 0s;
+  background-color: #8fbc8f;
+  transform: translateY(2px);
+}
+
+.actions {
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 18px;
+  background: #556b2f;
+}
+.actions:hover {
+  box-shadow: 1px 1px 5px 1px #556b2f;
+}
+.actions:active {
+  transition: 0s;
+  background-color: #8fbc8f;
+  transform: translateY(2px);
+}
+
+.buttonZerar {
+  margin-top: 10px;
+}
